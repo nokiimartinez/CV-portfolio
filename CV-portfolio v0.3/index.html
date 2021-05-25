@@ -9,16 +9,16 @@
 </head>
 <body>
 	<!-- header -->
-	<div class="container-fluid">
+	<!-- <div class="container-fluid">
 		<div class="row">
 			<div class="col bg-secondary text-white-50 shadow-lg"><h1 class="text-center display-4"> Nicolas Martinez </h1></div>
 
-		</div>
+		</div> -->
 		<div class="row text-center menu ">
 			<ul class="mt-7 pt-5 menu1">
-				<li class="col ms-7 me-5 d-inline "><button class="btn btn-secondary btn-lg">  Mes Services  </button></li> 
-				<li class="col ms-7 me-5 d-inline "><button class="btn btn-secondary btn-lg">  A propos de moi  </button></li> 
-				<li class="col ms-7 me-5 d-inline "><button class="btn btn-secondary btn-lg">  Contact  </button></li>
+				<li class="col ms-7 me-5 d-inline "><button class="btn btn-secondary btn-lg"><a href="#Services" alt="lien vers la section 'mes services'"> Mes Services  </a></button></li> 
+				<li class="col ms-7 me-5 d-inline "><button class="btn btn-secondary btn-lg"><a href="#apropos" alt="lien vers la section 'a propos'"> A propos de moi  </a></button></li> 
+				<li class="col ms-7 me-5 d-inline "><button class="btn btn-secondary btn-lg"><a href="#contact" alt="lien vers la section 'contact'"> Contact  </a></button></li>
 			</ul>
 			<p class="text-center float-start shadow-lg text-white fst-italic display-4">developpeur web junior</p>
 		</div>
@@ -26,7 +26,7 @@
 
 
 	<!-- Mes services barre -->
-	<div class="container-fluid"> 
+	<div class="container-fluid " id="Services">  
 		<div class='row mt-3 '>
 			<div class="col"></div>
 			<div class="col-11 bg-secondary text-white rounded-pill"><h2 class="text-center fs-4"> Mes services </h2></div>
@@ -62,7 +62,7 @@
 	</div>
 
 	<!-- A propos de moi barre  -->
-	<div class="container-fluid"> 
+	<div class="container-fluid" id="apropos"> 
 		<div class='row mt-5 '>
 			<div class="col"></div>
 			<div class="col-11 bg-secondary text-white rounded-pill"><h2 class="text-center fs-4"> A propos de moi </h2></div>
@@ -92,34 +92,34 @@
 
 	<div class="row ">
 			<div class="col"></div>
-			<div class="card mt-3 shadow-lg" style="width: 18rem;">
+			<div class="card mt-3 me-4 ms-4 shadow-lg" style="width: 18rem;">
 	  		<img src="img/pharmapp.png" class="card-img-top" alt="croix d'une pharmacie" title="pharma app">
 	  			<div class="card-body text-center">
 		    		<h5 class="card-title">Pharma App <br> ( JS / HTML / CSS ) </h5>
 		    		<p class="card-text"> Creation d'une application de Gestion de stock pour pharmacie. Ajout, Modification, Suppression de medicament, client et fournisseur + listing des stocks.  </p>
-		   			<a href="pharma-master/index.html" class="btn btn-primary">Go somewhere</a>
+		   			<a href="pharma-master/index.html" class="btn btn-secondary">Voir</a>
 	 		 	</div>
 			</div>
-			<div class="card mt-3 shadow-lg" style="width: 18rem; ">
+			<div class="card mt-3 me-4 ms-4 shadow-lg" style="width: 18rem; ">
 	  		<img style="height: 18rem" src="img/connexion.jpg" class="card-img-top" alt="systeme de connexion" title="connexion">
 	  			<div class="card-body text-center">
 		    		<h5 class="card-title">Connexion <br> ( PHP / HTML / CSS ) </h5>
 		    		<p class="card-text">codage from SCRATCH d'un systeme de connexion et de reinitialisation de mot de passe. + back office. </p>
-		   			<a href="#" class=" mt-4 btn btn-primary">Go somewhere</a>
+		   			<a href="#" class=" mt-4 btn btn-secondary">Voir</a>
 	 		 	</div>
 			</div>
-			<div class="card mt-3 shadow-lg" style="width: 18rem;">
+			<div class="card mt-3 me-4 ms-4 shadow-lg" style="width: 18rem;">
 	  		<img style="height: 18rem" src="img/laptop1.jpg" class="card-img-top" alt="image d'un ordinateur" title="laptop">
 	  			<div class="card-body text-center">
 		    		<h5 class="card-title"> Site vitrine <br> (HTML / CSS / PHP ) </h5>
 		    		<p class="card-text"> Creation d'un site pour une auto entrepreneuse parisienne qui est gestionnaire de paie. </p>
-		   			<a href="#" class="mt-5 btn btn-primary">Go somewhere</a>
+		   			<a href="#" class="mt-5 btn btn-secondary">Voir</a>
 	 		 	</div>
 			</div>
 			<div class="col"></div>
 	</div>
 
-	<div class="container-fluid"> 
+	<div class="container-fluid" id="contact"> 
 		<div class='row mt-5 '>
 			<div class="col"></div>
 			<div class="col-11 bg-secondary text-white rounded-pill"><h2 class="text-center fs-4"> Contact </h2></div>
@@ -163,12 +163,14 @@
 
 	<div class="container-fluid">
 			<div class="row text-center bg-secondary">
-				<div class="col-4"></div>
-				<div class="col-4 mt-4">
-					<img class="ms-2 me-2" src="img/laptop.jpg" style="width: 50px ; height: 50px">
-					<img class="ms-2 me-2" src="img/laptop.jpg" style="width: 50px ; height: 50px">
-					<img class="ms-2 me-2" src="img/laptop.jpg" style="width: 50px ; height: 50px">
-					<img class="ms-2 me-2" src="img/laptop.jpg" style="width: 50px ; height: 50px">
+				<div class="col-3"></div>
+				<div class="col-6 mt-4">
+					<img class="ms-2 me-2" src="img/logoAI.png" alt="logo illustrator" title="logo illustrator" style="width: 50px ; height: 50px">
+					<img class="ms-2 me-2" src="img/logoXD.png" alt="logo Adobe XD" title="logo Adobe XD" style="width: 50px ; height: 50px">
+					<img class="ms-2 me-2" src="img/logoH.svg" alt="logo HTML5" title="logo HTML5" style="width: 50px ; height: 50px">
+					<img class="ms-2 me-2" src="img/logoCSS.png" alt="logo CSS3" title="logo CSS3 "style="width: 50px ; height: 50px">
+					<img class="ms-2 me-2" src="img/php7.png" alt="logo PHP7" title="logo PHP7" style="width: 50px ; height: 50px">
+					<img class="ms-2 me-2" src="img/js.png" alt="logo Javascript" title="logo Javascript" style="width: 50px ; height: 50px">
 				</div>
 				<div class="col"></div>
 			</div>
@@ -176,12 +178,12 @@
 	<div class="container-fluid">
 			<div class="row bg-secondary">
 			<div class="col-11  text-white-50  ">
-				<h6><a class="text-white-50 border-bottom" href=""> Mes services </a></h6>
-				<h6><a class="text-white-50 border-bottom" href=""> A propos de moi </a></h6>
-				<h6><a class="text-white-50 border-bottom" href=""> Contact </a></h6>
+				<h6><a class="text-white-50 border-bottom" href="#Services" alt="lien vers la section 'mes services' "> Mes services </a></h6>
+				<h6><a class="text-white-50 border-bottom" href="#apropos" alt="lien vers la section 'A propos' "> A propos de moi </a></h6>
+				<h6><a class="text-white-50 border-bottom" href="#contact" alt="lien vers la section 'contact' "> Contact </a></h6>
 			</div>
 			<div class="col-1  ">
-				<div class="mt-3 fs-4 text-center"><a href=""><i class=" bi bi-linkedin" ></i></a></div>
+				<div class="mt-3 fs-4 text-center"><a href="https://www.linkedin.com/in/nicolas-martinez-b06248203/" target="_blank" ><i class=" bi bi-linkedin" ></i></a></div>
 			</div>
 			</div>
 

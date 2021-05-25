@@ -1,0 +1,25 @@
+html{
+	overflow-x: hidden ;
+}
+
+ul {
+	list-style: none ;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+.img_principale {
+	width: 100% ;
+}
+
+.menu1 {
+	position: absolute;
+	margin-top: -450px !important;
+}
+
+.texte_principale {
+	position: absolute ;
+}
